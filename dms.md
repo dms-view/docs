@@ -31,12 +31,12 @@ For example, you performed a deep mutational scan on the amino-acid level for a 
 ...|...|...|...|...|...|...|
 500|0.11|0.02|0.10|...|0.13|0.07|
 
-For each site (row), you would have a measurement for each amino acid (column).  
+For each site (row), you would have a measurement for each amino acid (column).
 
 ## Converting dms data to `dms-view` format
 
 <a href="https://dms-view.github.io" target="_blank">`dms_view`</a> is a flexible tool for data exploration.
-This means that it does not simply accept the output of a deep mutational scan and calculate standard metrics but instead the tool display whichever metrics the user chooses. For a complete discussion of the input file format, please see the [data upload](/docs/dataupload) page but below we will touch on how three different aspects of the data input file format map to the experiment outlined above. Finally, you can view the final <a href="https://dms-view.github.io" target="_blank">`dms_view`</a> input data file [HERE](https://raw.githubusercontent.com/dms-view/dms-view.github.io/master/flu_dms-view.csv).
+This means that it does not simply accept the output of a deep mutational scan and calculate standard metrics but instead the tool display whichever metrics the user chooses. For a complete discussion of the input file format, please see the [data upload](/docs/dataupload) page but below we will touch on how three different aspects of the data input file format map to the experiment outlined above. Finally, you can [view the final `dms_view` input data file](https://raw.githubusercontent.com/dms-view/dms-view.github.io/master/data/IAV/flu_dms-view.csv).
 
 ### mutation-level metrics
 

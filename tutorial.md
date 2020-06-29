@@ -36,7 +36,7 @@ When a site is selected on the site plot, its mutation-level information is show
 ### Selecting sites
 There are three ways to select a site in the site plot: clicking a site, brushing a site(s), or listing a specific site(s) by its label.
 
-1. Clicking on a site: You can click on a site using the mouse. Clicking on the site again will deselect the site.  
+1. Clicking on a site: You can click on a site using the mouse. Clicking on the site again will deselect the site.
 2. Brushing a site(s): You can brush several sites at once by clicking, holding, and swiping the mouse. Sites within the brush box will be selected.
 3. Listing a site(s): You can select a site by adding it to the selected site form field. This form field will also be updated with sites selected by clicking or brushing. The selected site field is a comma-separated list without leading or trailing spaces.
 
@@ -85,7 +85,7 @@ For more information on the input data format, please see the [data upload](/doc
 
 ### Protein dropdown
 
-You can toggle between different representations of the protein structure (cartoon, surface, etc) using the protein panel dropdown menu.  
+You can toggle between different representations of the protein structure (cartoon, surface, etc) using the protein panel dropdown menu.
 
 ## Sharing a state
 
