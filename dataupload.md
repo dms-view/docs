@@ -50,7 +50,7 @@ site|site_label|wildtype|mutation|condition|protein_chain|protein_site|mut_max|m
 2|pos2|D|A|Ab2|A|27|100|50|45
 
 Note how the the **site_*** values are repeated for each mutation at that site.
-You can see the data file used in the default <a href="https://dms-view.github.io" target="_blank">`dms_view`</a> view <a href="https://raw.githubusercontent.com/dms-view/dms-view.github.io/master/flu_dms-view.csv" target="_blank">HERE</a>.
+For a real world example, see [the default data file used by `dms_view`](https://raw.githubusercontent.com/dms-view/dms-view.github.io/master/data/IAV/flu_dms-view.csv).
 
 ## protein structure
 
