@@ -93,6 +93,11 @@ You can toggle between different representations of the protein structure (carto
 If after exploring a dataset you find a view that you want to save or share with someone else, you simply need to copy the URL.
 As an example, here are two different views of the same dataset with slightly different selections: <a href="https://dms-view.github.io/?markdown-url=https%3A%2F%2Fraw.githubusercontent.com%2Fdms-view%2Fdms-view.github.io%2Fmaster%2Flee2019mapping.md&data-url=https%3A%2F%2Fraw.githubusercontent.com%2Fdms-view%2Fdms-view.github.io%2Fmaster%2Fflu_dms-view.csv&condition=2010-age-21&site_metric=site_Positive+Differential+Selection&mutation_metric=mut_Differential+Selection&selected_sites=144%2C157%2C159%2C160%2C189%2C193%2C222%2C224&pdb-url=https%3A%2F%2Fraw.githubusercontent.com%2Fdms-view%2Fdms-view.github.io%2Fmaster%2F4O5N_trimer.pdb" target="_blank">view #1</a> and <a href="https://dms-view.github.io/?markdown-url=https%3A%2F%2Fraw.githubusercontent.com%2Fdms-view%2Fdms-view.github.io%2Fmaster%2Flee2019mapping.md&data-url=https%3A%2F%2Fraw.githubusercontent.com%2Fdms-view%2Fdms-view.github.io%2Fmaster%2Fflu_dms-view.csv&condition=2009-age-53&site_metric=site_Positive+Differential+Selection&mutation_metric=mut_Differential+Selection&selected_sites=144%2C157%2C159%2C160%2C189%2C193%2C222%2C224&pdb-url=https%3A%2F%2Fraw.githubusercontent.com%2Fdms-view%2Fdms-view.github.io%2Fmaster%2F4O5N_trimer.pdb" target="_blank">view #2</a>
 
+## Saving images
+
+You can save the current view of a panel by clicking the **Download SVG** or **download PNG** button.
+This button will download an SVG or PNG of that panel only, not of the whole tool.
+
 ## Adding your own data to the site
 
 <a href="https://dms-view.github.io" target="_blank">`dms_view`</a> uses three different files: the data file, the protein structure file, and the description file.
@@ -110,7 +115,7 @@ Here we will walk through a simple analysis of Influenza Virus data using <a hre
 ![mutational antigenic profiling schematic](/images/map_schematic.png)
 We can compare sera from different people to see individual differences in Influenza Virus immunity.
 
-### Set up with Analysis with [`dms-view`](jbloomlab.github.io/dms-view)
+### Set up Analysis with [`dms-view`](jbloomlab.github.io/dms-view)
 
 As mentioned above, <a href="https://dms-view.github.io" target="_blank">`dms_view`</a> takes up to three files: the data file with the deep mutational scanning measurements, the protein structure file, and the description file.
 We followed the [data upload](/docs/dataupload) guidelines and created a [data file](https://github.com/jbloomlab/dms-view/blob/master/docs/_data/IAV/flu_dms-view.csv), a [description file](https://github.com/jbloomlab/dms-view/blob/master/docs/_data/IAV/lee2019mapping.md), and retrieved a [protein structure](https://github.com/jbloomlab/dms-view/blob/master/docs/_data/IAV/4O5N_trimer.pdb) for this experiment.
