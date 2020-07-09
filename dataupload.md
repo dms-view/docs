@@ -20,7 +20,7 @@ The data file is the main source of data for <a href="https://dms-view.github.io
 This file contains the measurements for the site plot, the measurements for the mutation plot, and the map between the site plot numbering and the protein structure numbering.
 
 The data file is a `csv` (comma-separated file) and it must have the following columns:
-* **site**: The site plot will be ordered by this column. The values must be ordinal.  
+* **site**: The site plot will be ordered by this column. The values must be ordinal.
 * **label_site**: The site plot will be labeled by this column. The values can be numeric or a string.
 * **wildtype**: The wildtype at a given site. The tooltips will display this information. The values can be numeric or a string.
 * **mutation**: The mutation plot will display this mutation. The values must be a single uppercase letter.
@@ -31,7 +31,7 @@ The data file is a `csv` (comma-separated file) and it must have the following c
 The data file must contain at least one column from each of the following categories.
 
 * **site_***: The value for a given site for a given metric (represented by `*`). The values must be numeric. For example, `site_mean`.
-* **mut_***: The value for a given site for a given mutation for a given metric (represented by `*`). The values must be numeric. For example, `mut_mean`.  
+* **mut_***: The value for a given site for a given mutation for a given metric (represented by `*`). The values must be numeric. For example, `mut_mean`.
 
 The metric names represented by _*_ above will populate the site metric and mutation metric dropdown menus.
 
@@ -40,7 +40,7 @@ The metric names represented by _*_ above will populate the site metric and muta
 Imagine an experiment to test the effect of alanine mutations on the ability of antibodies to bind to HIV.
 In this small experiment, the effect of an alanine mutation was measured at position 1 or position 2 for antibody A and antibody B.
 
-Here is what the data file might look like for this experiment.  
+Here is what the data file might look like for this experiment.
 
 site|site_label|wildtype|mutation|condition|protein_chain|protein_site|mut_max|mut_mean|site_median|
 ---|---|---|---|---|---|---|---|---|---|
@@ -50,7 +50,7 @@ site|site_label|wildtype|mutation|condition|protein_chain|protein_site|mut_max|m
 2|pos2|D|A|Ab2|A|27|100|50|45
 
 Note how the the **site_*** values are repeated for each mutation at that site.
-You can see the data file used in the default <a href="https://dms-view.github.io" target="_blank">`dms_view`</a> view <a href="https://raw.githubusercontent.com/dms-view/dms-view.github.io/master/flu_dms-view.csv" target="_blank">HERE</a>.
+For a real world example, see [the default data file used by `dms_view`](https://raw.githubusercontent.com/dms-view/dms-view.github.io/master/data/IAV/flu_dms-view.csv).
 
 ## protein structure
 
@@ -93,4 +93,4 @@ The [data file](#data-file) link must be to the **raw** data on Github not the H
 See [Hosting input files](#hosting-input-files) for more information.
 
 All of the data files are saved in the URL.
-Once the data is loaded, you can share this new URL with others and _your_ data will load for them.  
+Once the data is loaded, you can share this new URL with others and _your_ data will load for them.
