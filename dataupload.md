@@ -54,7 +54,9 @@ For a real world example, see [the default data file used by `dms_view`](https:/
 
 ## protein structure
 
-The protein structure file is a [pdb file](https://en.wikipedia.org/wiki/Protein_Data_Bank_(file_format)).
+The protein structure file is a [protein data bank (pdb) file](https://en.wikipedia.org/wiki/Protein_Data_Bank_(file_format)).
+Specifying a pdb file, rather than a pdb ID, allows you to customize the protein structure.
+This could include removing chains, changing the numbering scheme, and other custom modifications.
 
 The data file columns **site**, **protein_chain**, and **protein_site** map differences in numbering between the site/mutation plot and the protein structure.
 Specifically, the **protein_site** column contains the correspondence between the site/mutation values and the protein structure.
