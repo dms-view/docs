@@ -248,6 +248,7 @@ DEPENDENCIES
   github-pages (~> 204)
   jekyll-feed (~> 0.12)
   minima (~> 2.5)
+  minitest (~> 5.14.1)
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)

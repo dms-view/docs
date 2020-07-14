@@ -32,3 +32,6 @@ http-server -a 127.0.0.1 -p 8000
 Note that `dms-view` loads data (CSVs, PDB files, the font for logo plots, etc.) by making HTTP requests to publicly available servers.
 This means that you cannot load local data from your computer unless it is in a directory that is visible to your web server.
 In the example above, all files from the top-level `dms-view` repository directory and below will be accessible to your web server.
+
+We welcome contributions to the `dms-view` code and documentation.
+[Consult our contributing guide for more details](https://github.com/dms-view/dms-view.github.io/blob/master/CONTRIBUTING.md).
