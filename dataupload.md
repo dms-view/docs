@@ -35,6 +35,14 @@ The data file must contain at least one column from each of the following catego
 
 The metric names represented by _*_ above will populate the site metric and mutation metric dropdown menus.
 
+### customizing colors in the mutation plot
+
+The default color scheme for the mutation plot indicates the biochemical property of the amino acid.
+If you would like to use custom colors in the mutation plot, you should include a **color_for_mutation** column.
+The cells in the **color_for_mutation** column should contain either 1) a valid hex color code or 2) the keyword "functional" to indicate the default color scheme.
+This allows you mix-and-match which site/mutation/site metric combinations use a custom color and which use the default color scheme.
+Invalid hex color codes or empty cells will default to black.
+
 ## example: HIV antibody escape
 
 Imagine an experiment to test the effect of alanine mutations on the ability of antibodies to bind to HIV.
