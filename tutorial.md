@@ -103,8 +103,7 @@ This button will download an SVG or PNG of that panel only, not of the whole too
 <a href="https://dms-view.github.io" target="_blank">`dms_view`</a> uses three different files: the data file, the protein structure file, and the description file.
 You can upload your data using each file's specific form field. Please see the [data upload](/docs/dataupload) page for specifics on the file formats for each file.
 
-<a href="https://dms-view.github.io" target="_blank">`dms_view`</a> does not host the data itself, the files must be hosted on some other server such as [GitHub](https://www.github.com).
-Note that `dms-view` cannot load data from [Dropbox](https://www.dropbox.com) or [Google Drive](https://www.google.com/drive/) links due to cross-origin resource restrictions implemented by those services.
+<a href="https://dms-view.github.io" target="_blank">`dms_view`</a> does not host the data itself, the files must be hosted on some other server such as [GitHub](https://www.github.com), [Dropbox](https://www.dropbox.com), or [Google Drive](https://www.google.com/drive/).
 
 # Sample analysis
 
