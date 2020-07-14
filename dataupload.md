@@ -83,23 +83,23 @@ You can see the protein file used in the default <a href="https://dms-view.githu
 
 # Hosting input files
 
-Before you can load any of the three files to <a href="https://dms-view.github.io" target="_blank">`dms_view`</a>, you must host the files somewhere else with a link to the raw data.  
+Before you can load any of the three files to <a href="https://dms-view.github.io" target="_blank">`dms_view`</a>, you must host the files somewhere else with a link to the raw data.
 This can be as easy as uploading them to [GitHub](https://github.com/) and linking to the **Raw** files.
-Github shows an HTML version by default so you will need to click on the **View raw** link  
-![view raw](/images/view_raw.png)  
-and the URL should start with `https://raw.githubusercontent.com/`.  
+GitHub shows an HTML version by default so you will need to click on the **View raw** link
+![view raw](/images/view_raw.png)
+and the URL should start with `https://raw.githubusercontent.com/`.
 
-![raw url](/images/raw_url.png)  
+![raw url](/images/raw_url.png)
 
 
-You can still use <a href="https://dms-view.github.io" target="_blank">`dms_view`</a> even if you data is a private repo or directory.
+You can still use <a href="https://dms-view.github.io" target="_blank">`dms_view`</a> even if you data is a private repository or directory.
 The only caveat is that the <a href="https://dms-view.github.io" target="_blank">`dms_view`</a> URL sharing will not work.
 
 # How to load your data
 
 Once you have your input files hosted, you can load the data into <a href="https://dms-view.github.io" target="_blank">`dms_view`</a> by filling in the form fields on the front page.
 The [data file](#data-file) form field is above the site plot, the [protein file](#protein-structure) form field is above the protein structure and the [description file](#description-file) form field is above the description section at the bottom of the site.
-The [data file](#data-file) link must be to the **raw** data on Github not the HTML rendering.
+The [data file](#data-file) link must be to the **raw** data on GitHub not the HTML rendering.
 See [Hosting input files](#hosting-input-files) for more information.
 
 All of the data files are saved in the URL.
