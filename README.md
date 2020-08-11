@@ -1,5 +1,5 @@
-# `dms-view` documentation
+# old `dms-view` documentation
 
-This repo contains the documentation for [`dms-view`](https://jbloomlab.github.io/dms-view).
-The documentation can be found at [`dms-view.github.io/docs`](https://dms-view.github.io/docs)
-To build the site on your local computer use `bundle exec jekyll serve`.
+This repo contains a previous verison of the documentation for [`dms-view`](https://dms-view.github.io) and is now archived and read only.
+The updated documentation code can now be found in the [dms-view.github.io repo](https://github.com/dms-view/dms-view.github.io).
+The docs can still be found at [https://dms-view.github.io/docs](https://dms-view.github.io/docs)
